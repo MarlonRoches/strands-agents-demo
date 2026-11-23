@@ -1,0 +1,28 @@
+{
+  "name": "strands-agents-demo",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Demo básica de Strands Agents (SDK de agentes de IA de AWS) con TypeScript y Node.js",
+  "type": "module",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "agent": "tsx src/agent.ts",
+    "multi": "tsx src/multi-agent.ts",
+    "test": "tsx --test tests/*.test.ts",
+    "typecheck": "tsc"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^1.12.0",
+    "@strands-agents/sdk": "^1.26.0",
+    "dotenv": "^18.0.10",
+    "openai": "^6.49.0",
+    "zod": "^4.6.7"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.6",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2"
+  }
+}

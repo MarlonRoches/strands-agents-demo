@@ -1,3 +1,0 @@
-strands-agents[anthropic,openai]>=1.65
-python-dotenv
-pytest
